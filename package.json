@@ -1,0 +1,15 @@
+{
+  "name": "multicall.sol",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint:fix": "prettier --write contracts",
+    "compile": "waffle"
+  },
+  "devDependencies": {
+    "ethereum-waffle": "^3.3.0",
+    "prettier": "^2.2.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.5"
+  }
+}
